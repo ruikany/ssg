@@ -12,6 +12,7 @@ class HTMLNode:
         self.children = children
         self.props = props
 
+    # will override in subclasses
     def to_html(self):
         raise NotImplementedError
 
